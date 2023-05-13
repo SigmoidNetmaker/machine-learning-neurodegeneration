@@ -8,4 +8,13 @@ The purpose of this study was to (1) process the data in two leading databases o
 
 Following is the list of MATLAB m-files and a brief description of what they do:
 
-NACCreadDataset
+NACCreadDataset.m -- reads data from the National Alzheimer's Coordinating Center (NACC) database
+RADCreadLongBasic.m -- reads data from the Rush Alzheimer's Disease Center (RADC) database
+
+NACCmakeTruthTable.m -- constructs a supervised-learning truth table from the NACC dataset
+RADCmakeTruthTable.m -- constructs a supervised-learning truth table from the RADC dataset
+
+NACCmakeSeqCellArray.m -- organizes the NACC truth table into temporal sequences for each participant
+RADCmadeSeqCellArray.m -- organizes the RADC truch table into temporal sequences for each participant
+
+
