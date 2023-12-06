@@ -51,7 +51,7 @@ LSTMcorrelate.m -- correlates potencies as estimated from the NACC and RADC data
                    
 LSTMcorrelJob.m -- performs correlations between estimates using actual and scrambled datasets
 
-(7) Extra Possibly Useful mfiles
+(7) Extra Possibly Useful M-files
 
 LSTMtrain.m -- trains LSTM ANNs with all LSTM features present  
 LSTMtest.m -- tests LSTM ANNs with all LSTM features present  
