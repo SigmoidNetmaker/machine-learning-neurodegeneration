@@ -8,6 +8,8 @@ The purpose of this study was to (1) process the data in two leading databases o
 
 Following is the list of MATLAB m-files and a brief description of what they do:
 
+(1) Read Data from the NACC and the RADC Databases and Create Input/Desired-output Lists   
+
 NACCreadDataset.m -- reads data from the National Alzheimer's Coordinating Center (NACC) database    
 RADCreadLongBasic.m -- reads data from the Rush Alzheimer's Disease Center (RADC) database
 
