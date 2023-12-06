@@ -56,4 +56,16 @@ LSTMcorrelJob.m -- performs correlations between estimates using actual and scra
 LSTMtrain.m -- trains LSTM ANNs with all LSTM features present  
 LSTMtest.m -- tests LSTM ANNs with all LSTM features present  
 
+drugPercent.m -- computes percentages of patients taking neuro vs non-neuro drugs  
+
+ADcomorbidANOVA.m -- performs ANOVA on cognitive scores with comorbidities as levels  
+
+
+
+
+                       
+
+
+
+
 
