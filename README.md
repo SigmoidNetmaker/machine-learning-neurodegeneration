@@ -20,7 +20,7 @@ NACCmakeSeqCellArray.m -- organizes the NACC truth table into temporal sequences
 RADCmadeSeqCellArray.m -- organizes the RADC truch table into temporal sequences for each participant
 
 (2) Set Up the ANN/ML Environment and Find the Best ANN Architecture for the NACC and RACD Datasets     
-    Note that the ANNs are based on the Long Short-Term Memory (LSTM) formalism  
+    (Note that the ANNs are based on the Long Short-Term Memory (LSTM) formalism)  
     
 LSTMsetUp.m -- sets basic ML and ANN parameters and constructs ANN weight matrices   
 LSTMrandomize.m -- randomizes ANN weight matrices before training 
