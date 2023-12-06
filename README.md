@@ -21,4 +21,5 @@ RADCmadeSeqCellArray.m -- organizes the RADC truch table into temporal sequences
 
 (2) Set Up the ANN/ML Environment and Find the Best ANN Architecture for the NACC and RACD Datasets  
 
-
+LSTMsetUp.m -- sets basic ML and ANN parameters and constructs ANN weight matrices
+LSTM
