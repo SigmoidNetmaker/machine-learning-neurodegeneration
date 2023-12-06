@@ -48,6 +48,7 @@ LSTMcomboPar.m -- computes same average combo responses as LSTMcomboJob but in p
 
 LSTMcorrelate.m -- correlates potencies as estimated from the NACC and RADC databases  
                    and orders potencies jointly according to both the NACC and RADC estimates  
+                   
 LSTMcorrelJob.m -- performs correlations between estimates using actual and scrambled datasets
 
 (7) Extra Possibly Useful mfiles
