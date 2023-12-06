@@ -19,4 +19,6 @@ RADCmakeTruthTable.m -- constructs a supervised-learning truth table from the RA
 NACCmakeSeqCellArray.m -- organizes the NACC truth table into temporal sequences for each participant    
 RADCmadeSeqCellArray.m -- organizes the RADC truch table into temporal sequences for each participant
 
+(2) Set Up the ANN/ML Environment and Find the Best ANN Architecture for the NACC and RACD Datasets  
+
 
