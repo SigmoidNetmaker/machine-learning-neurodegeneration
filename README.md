@@ -52,7 +52,7 @@ LSTMcorrelJob.m -- performs correlations between estimates using actual and scra
 
 (7) Extra Possibly Useful mfiles
 
-LSTMtrain.m -- trains LSTM ANNs will all LSTM features present  
-LSTMtest.m -- tests LSTM ANNs will all LSTM features present  
+LSTMtrain.m -- trains LSTM ANNs with all LSTM features present  
+LSTMtest.m -- tests LSTM ANNs with all LSTM features present  
 
 
