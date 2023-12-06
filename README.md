@@ -23,4 +23,5 @@ RADCmadeSeqCellArray.m -- organizes the RADC truch table into temporal sequences
     Note that the ANNs are based on the Long Short-Term Memory (LSTM) formalism  
     
 LSTMsetUp.m -- sets basic ML and ANN parameters and constructs ANN weight matrices 
-LSTM
+LSTMrandomize.m -- randomizes ANN weight matrices before training
+LSTMdecom
