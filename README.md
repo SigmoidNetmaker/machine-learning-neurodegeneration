@@ -32,3 +32,14 @@ LSTMgenTest.m -- evaluates generalizability of LSTM networks with features remov
 LSTMga.m -- uses genetic algorithm to find optimal LSTM feature sets and ML parameters    
 LSTMgaJob.m -- runs the genetic algorithm in batch mode  
 
+(3) Train the Best Suited ANN on Either the NACC or the RACD Dataset  
+
+
+
+
+(7) Extra Possibly Useful mfiles
+
+LSTMtrain.m -- trains LSTM ANNs will all LSTM features present  
+LSTMtest.m -- tests LSTM ANNs will all LSTM features present  
+
+
