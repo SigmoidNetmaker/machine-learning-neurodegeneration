@@ -25,7 +25,7 @@ RADCmadeSeqCellArray.m -- organizes the RADC truch table into temporal sequences
 LSTMsetUp.m -- sets basic ML and ANN parameters and constructs ANN weight matrices   
 LSTMrandomize.m -- randomizes ANN weight matrices before training 
  
-LSTMdecomTrain.m -- decomposes LSTM networks to remove specific LSTM features  
+LSTMdecomTrain.m -- trains LSTM networks with specific LSTM features removed  
 LSTMdecomTest.m -- tests LSTM networks with specific LSTM features removed   
 LSTMeval.m  -- evaluates accuracy of LSTM networks with features removed  
 LSTMgenTest.m -- evaluates generalizability of LSTM networks with features removed  
@@ -34,8 +34,14 @@ LSTMgaJob.m -- runs the genetic algorithm in batch mode
 
 (3) Train the Best Suited ANN on Either the NACC or the RACD Dataset  
 
+LSTMdecomTrain.m -- trains LSTM networks with specific LSTM features removed  
+(Note that his mfile is the same as the one in item (2)). 
 
+(4) Use Trained ANNs to Identify the Drug Combinations Associated with the Best Cognitive Health  
 
+LSTMcombo.m -- computes responses of a trained network to all drug combinations  
+LSTMcomboJob.m -- computes average drug combo responses of ten separately trained ANNs  
+LSTMcomboPar.m -- computes same average combo responses as LSTMcomboJob but in parallel
 
 (7) Extra Possibly Useful mfiles
 
