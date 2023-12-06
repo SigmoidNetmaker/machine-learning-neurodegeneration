@@ -46,8 +46,8 @@ LSTMcomboPar.m -- computes same average combo responses as LSTMcomboJob but in p
 (5) Compare the Drug Combinations Between the Two Datasets; and  
 (6) Identify the Jointly Determined, Best Drug Combinations
 
-LSTMcorrelate.m -- correlates potencies as estimated from the NACC and RADC databases 
-and orders potencies jointly according to both the NACC and RADC estimates  
+LSTMcorrelate.m -- correlates potencies as estimated from the NACC and RADC databases  
+                   and orders potencies jointly according to both the NACC and RADC estimates  
 LSTMcorrelJob.m -- performs correlations between estimates using actual and scrambled datasets
 
 (7) Extra Possibly Useful mfiles
