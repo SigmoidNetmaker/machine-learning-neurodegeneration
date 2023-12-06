@@ -22,6 +22,9 @@ RADCmadeSeqCellArray.m -- organizes the RADC truch table into temporal sequences
 (2) Set Up the ANN/ML Environment and Find the Best ANN Architecture for the NACC and RACD Datasets     
     Note that the ANNs are based on the Long Short-Term Memory (LSTM) formalism  
     
-LSTMsetUp.m -- sets basic ML and ANN parameters and constructs ANN weight matrices 
-LSTMrandomize.m -- randomizes ANN weight matrices before training
-LSTMdecom
+LSTMsetUp.m -- sets basic ML and ANN parameters and constructs ANN weight matrices   
+LSTMrandomize.m -- randomizes ANN weight matrices before training  
+LSTMdecomTrain.m -- decomposes LSTM networks to remove specific LSTM features    
+LSTMga.m -- uses genetic algorithm to find optimal LSTM feature sets and ML parameters    
+LSTMgaJob.m -- runs the genetic algorithm in batch mode  
+
