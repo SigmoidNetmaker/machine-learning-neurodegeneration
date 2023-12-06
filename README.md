@@ -41,7 +41,14 @@ LSTMdecomTrain.m -- trains LSTM networks with specific LSTM features removed
 
 LSTMcombo.m -- computes responses of a trained network to all drug combinations  
 LSTMcomboJob.m -- computes average drug combo responses of ten separately trained ANNs  
-LSTMcomboPar.m -- computes same average combo responses as LSTMcomboJob but in parallel
+LSTMcomboPar.m -- computes same average combo responses as LSTMcomboJob but in parallel  
+
+(5) Compare the Drug Combinations Between the Two Datasets; and  
+(6) Identify the Jointly Determined, Best Drug Combinations
+
+LSTMcorrelate.m -- correlates potencies as estimated from the NACC and RADC databases 
+and orders potencies jointly according to both the NACC and RADC estimates  
+LSTMcorrelJob.m -- performs correlations between estimates using actual and scrambled datasets
 
 (7) Extra Possibly Useful mfiles
 
